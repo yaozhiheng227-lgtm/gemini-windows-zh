@@ -21,7 +21,7 @@ Gemini Windows 指定构建的非官方简体中文界面补丁，与 Google 无
 - 2026-10-29 本机记录：JavaScript 语法检查通过，基础测试 18 项通过，Chrome 合成页面检查 67 项通过。
 - 18 项中有 4 项依赖本机原始资源并使用测试替身；无资源的环境会跳过，不代表真实签名或安装流程通过。
 - 当前版本已在本机安装并加载；尚未完成全部真实页面、业务流程和长时间运行复测。
-- **GitHub Actions 尚未运行。发布者应在远程运行后据实更新本条，不预先标记成功。**
+- [GitHub Actions 首轮实测](https://github.com/yaozhiheng227-lgtm/gemini-windows-zh/actions/runs/40811459757)通过：Windows、Ubuntu × Node.js 20、24 共四个任务成功。每个任务的基础测试为 14 项通过、4 项本机资源测试跳过，失败为 0；Windows + Node.js 24 的 Edge 合成页面检查 67/67 通过。远程 CI 不代替真实客户端安装与全部界面验收。
 
 ## 已知限制与恢复
 

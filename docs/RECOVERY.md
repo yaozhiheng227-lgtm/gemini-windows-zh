@@ -1,5 +1,7 @@
 # 安装与恢复异常
 
+[返回首页](../README.md) · [新手状态对照与常见问题](GETTING_STARTED.md)
+
 安装或恢复前，先通过 Gemini 的“文件 → 退出”退出客户端。保留完整错误信息；不要手动覆盖 `app.asar` 或删除备份来强行重试。
 
 0.1.3 的 `status`/`diagnose` 将清单与备份分开报告：`statePresent`、`backupPresent`、`backupValid`。`backupIssue` 可为 `missing`、`hash-mismatch`、`invalid-file`、`unreadable`、`unregistered` 或 `incomplete-directory`。出现这些状态时不要把“补丁已安装”当成“可以安全恢复”。

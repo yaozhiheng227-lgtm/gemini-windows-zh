@@ -1,0 +1,281 @@
+{
+  "passed": 67,
+  "total": 67,
+  "results": [
+    {
+      "name": "navigation label translated",
+      "pass": true
+    },
+    {
+      "name": "button and accessibility label translated",
+      "pass": true
+    },
+    {
+      "name": "welcome translated",
+      "pass": true
+    },
+    {
+      "name": "observed Angular welcome has visible Chinese layer",
+      "pass": true
+    },
+    {
+      "name": "zero-state welcome inside conversation log has a scoped exception",
+      "pass": true
+    },
+    {
+      "name": "animated split heading keeps original tokens and visible translation",
+      "pass": true
+    },
+    {
+      "name": "model-picker accessibility label translated",
+      "pass": true
+    },
+    {
+      "name": "dictation label retains keyboard shortcut",
+      "pass": true
+    },
+    {
+      "name": "prompt editor label changes without changing draft",
+      "pass": true
+    },
+    {
+      "name": "history title preserved",
+      "pass": true
+    },
+    {
+      "name": "user message preserved",
+      "pass": true
+    },
+    {
+      "name": "model output and code preserved",
+      "pass": true
+    },
+    {
+      "name": "article content preserved",
+      "pass": true
+    },
+    {
+      "name": "plain non-UI text preserved",
+      "pass": true
+    },
+    {
+      "name": "input value and editable content preserved",
+      "pass": true
+    },
+    {
+      "name": "input hint translated",
+      "pass": true
+    },
+    {
+      "name": "SPA-added navigation control translated",
+      "pass": true
+    },
+    {
+      "name": "rerendered menu item translated",
+      "pass": true
+    },
+    {
+      "name": "unrecognized conversation area fails closed",
+      "pass": true
+    },
+    {
+      "name": "hover tooltip created outside navigation translates on a conversation route",
+      "pass": true
+    },
+    {
+      "name": "reused hover tooltip text is translated",
+      "pass": true
+    },
+    {
+      "name": "Material tooltip without a role is translated",
+      "pass": true
+    },
+    {
+      "name": "search dialog input label translates away from home without changing draft",
+      "pass": true
+    },
+    {
+      "name": "search chrome translates while a same-word result title stays original",
+      "pass": true
+    },
+    {
+      "name": "semantic library headings and empty-state caption translate",
+      "pass": true
+    },
+    {
+      "name": "same-word library document name stays original",
+      "pass": true
+    },
+    {
+      "name": "customize page and contextual home category translate",
+      "pass": true
+    },
+    {
+      "name": "catalog add accessibility label preserves brand",
+      "pass": true
+    },
+    {
+      "name": "custom skill and file names stay original",
+      "pass": true
+    },
+    {
+      "name": "daily brief onboarding text and call to action translate",
+      "pass": true
+    },
+    {
+      "name": "daily brief output outside onboarding stays original",
+      "pass": true
+    },
+    {
+      "name": "scheduled filter label translates without changing user task title",
+      "pass": true
+    },
+    {
+      "name": "observed usage island translates known controls and captions",
+      "pass": true
+    },
+    {
+      "name": "public links bulk action translates while link records stay original",
+      "pass": true
+    },
+    {
+      "name": "an unrecognized React island is not a localization scope",
+      "pass": true
+    },
+    {
+      "name": "avatar secondary page heading and controls translate",
+      "pass": true
+    },
+    {
+      "name": "avatar secondary page static rows translate",
+      "pass": true
+    },
+    {
+      "name": "profile name and user skill/memory content remain original",
+      "pass": true
+    },
+    {
+      "name": "avatar handle remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "task settings explanatory text translates",
+      "pass": true
+    },
+    {
+      "name": "settings values and toggle states remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "settings-page support still leaves conversation controls alone",
+      "pass": true
+    },
+    {
+      "name": "disable restores original navigation text",
+      "pass": true
+    },
+    {
+      "name": "disable preserves app-updated attribute",
+      "pass": true
+    },
+    {
+      "name": "disable restores original input hint",
+      "pass": true
+    },
+    {
+      "name": "disable restores every animated heading token",
+      "pass": true
+    },
+    {
+      "name": "disable restores tooltip and secondary-page text",
+      "pass": true
+    },
+    {
+      "name": "reenable applies navigation translations",
+      "pass": true
+    },
+    {
+      "name": "reenable observes controls added while disabled",
+      "pass": true
+    },
+    {
+      "name": "back-forward cache restoration resumes dynamic translation",
+      "pass": true
+    },
+    {
+      "name": "home route alone does not translate unknown user controls",
+      "pass": true
+    },
+    {
+      "name": "recognized composer labels still translate outside navigation",
+      "pass": true
+    },
+    {
+      "name": "observed sidebar components keep their fixed navigation labels",
+      "pass": true
+    },
+    {
+      "name": "observed chat-task switch remains translated",
+      "pass": true
+    },
+    {
+      "name": "body-level landing heading never expands scope to html",
+      "pass": true
+    },
+    {
+      "name": "landing translation preserves same-word non-heading data in main",
+      "pass": true
+    },
+    {
+      "name": "settings records outside React islands remain original",
+      "pass": true
+    },
+    {
+      "name": "settings bulk action remains eligible beside protected records",
+      "pass": true
+    },
+    {
+      "name": "settings route alone does not approve unknown page content",
+      "pass": true
+    },
+    {
+      "name": "first-use and menu lists still translate while data lists are protected",
+      "pass": true
+    },
+    {
+      "name": "welcome heading overlay stays isolated: h1",
+      "pass": true
+    },
+    {
+      "name": "welcome heading overlay stays isolated: div role=\"heading\"",
+      "pass": true
+    },
+    {
+      "name": "split control branch translates without removing child nodes",
+      "pass": true
+    },
+    {
+      "name": "icon glyph text is protected even when it matches a dictionary word",
+      "pass": true
+    },
+    {
+      "name": "split control branch restores both original tokens",
+      "pass": true
+    },
+    {
+      "name": "runtime translation preserves literal dollar replacement patterns",
+      "pass": true
+    },
+    {
+      "name": "engine version matches the package version",
+      "pass": true
+    }
+  ],
+  "evidence": {
+    "toolkitVersion": "0.1.3",
+    "recordedAt": "2026-10-29T02:43:59.714Z",
+    "nodeVersion": "v24.18.0",
+    "browserUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "sourceSha256": "a2f6a8cc12a7a365db3c1b6cc69d42278fe81cb1cd4b0a90d2d760d1c99711df"
+  }
+}

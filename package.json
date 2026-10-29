@@ -1,0 +1,15 @@
+{
+  "name": "gemini-windows-zh",
+  "version": "0.1.3",
+  "private": true,
+  "description": "Reversible, local Chinese UI localization for a verified Gemini Windows build",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/asar.test.mjs test/patcher.test.mjs",
+    "check": "node --check src/localizer.js && node --check src/patcher.mjs && node --check src/asar.mjs && node --check bin/gemini-zh.mjs && node --check test/asar.test.mjs && node --check test/patcher.test.mjs && node --check test/fixtures.mjs && node --check test/browser-check.mjs",
+    "test:browser": "node test/browser-check.mjs",
+    "diagnose": "node bin/gemini-zh.mjs diagnose"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+work/
+artifacts/
+*.log
+*.zip
+*.exe
+*.asar
+*.original
+.gemini-windows-zh/
+DevToolsActivePort
+.env*
+!.env.example
